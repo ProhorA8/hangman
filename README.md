@@ -1,7 +1,7 @@
 Material from Wikipedia - 
 free encyclopedia ["Hangman game"](https://ru.wikipedia.org/wiki/Виселица_(игра))
 
-Run game:
+### Run game:
 ```
 $ ruby main.rb
 ```
@@ -11,5 +11,6 @@ The player has 7 attempts to guess, with each error the current state of the pla
 
 Upon reaching 7 errors, the player loses and is hanged.
 
-Adding new words to the game
+### Adding new words to the game
+
 You need to go to ```/data/word.txt``` and add the necessary words.
