@@ -9,12 +9,11 @@ class ConsoleInterface
   end
 
   def print_out
-    # HEREDOC
     puts <<~END
 
-      Слово: #{word_to_show}
-      #{figure}
-      Ошибки (#{@game.errors_made}): #{errors_to_show}
+      #{"Слово: #{word_to_show}".light_blue}
+      #{figure.yellow}
+      #{"Ошибки (#{@game.errors_made}): #{errors_to_show}".red}
       У вас осталось ошибок: #{@game.errors_allowed}
 
     END

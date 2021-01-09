@@ -1,9 +1,19 @@
 Material from Wikipedia - 
 free encyclopedia ["Hangman game"](https://ru.wikipedia.org/wiki/Виселица_(игра))
 
+### Installation
+```
+$ git clone git@github.com:ProhorA8/hangman.git
+
+$ cd ./hangman
+
+$ gem install bundler
+
+$ bundle
+```
 ### Run game:
 ```
-$ ruby main.rb
+$ bundle exec ruby main.rb
 ```
 The computer thinks out a word and displays it on the screen.
 
